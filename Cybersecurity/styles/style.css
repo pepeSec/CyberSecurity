@@ -15,6 +15,15 @@ header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.39);
 }
+#imglogo {
+    width: 125px;
+    height: 37.5px;
+    margin-top: 5px;
+    margin-left: -60%;
+    position: absolute;
+    text-align: center;
+    border-radius: 8px;
+}
 #ulnav {
     width: 50%;
     height: 50px;
@@ -30,28 +39,34 @@ header {
 }
 #nlink1 {
     left: 25%;
-    top: 15px;
+    top: 12px;
     position: absolute;
+    padding: 3px;
     text-decoration: none;
     color: inherit;
     font: inherit;
     font-family: inherit;
+    border-radius: 5px;
 }
 #nlink2 {
     left: 50%;
-    top: 15px;
+    top: 12px;
     position: absolute;
+    padding: 3px;
     text-decoration: none;
     color: inherit;
     font: inherit;
     font-family: inherit;
+    border-radius: 5px;
 }
 #nlink3 {
     left: 75%;
-    top: 15px;
+    top: 12px;
     position: absolute;
+    padding: 3px;
     text-decoration: none;
     color: inherit;
     font: inherit;
     font-family: inherit;
+    border-radius: 5px;
 }
