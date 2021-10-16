@@ -85,7 +85,7 @@ section {
     width: 100%;
     height: 85%;
     position: absolute;
-    background-image: linear-gradient(to bottom, #3a3aff, #a63aff);
+    background-color: rgb(51, 51, 51);
 }
 #thema1 {
     width: 100%;
@@ -180,23 +180,30 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
+#cnt3 {
+    width: 100%;
+    height: 468px;
+    top: 95%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #3a3affd5, #a63affd5);
+}
 #titlecontent3 {
     width: 100%;
     height: 28px;
-    top: 95%;
+    top: 3%;
     position: absolute;
     text-align: center;
 }
 #titlec3 {
-    color: rgb(255, 255, 255);
-    font: 800 15pt Arial;
+    color: rgb(31, 31, 31);
+    font: 900 18pt Arial;
     margin: 0px;
 }
 
 #content3 {
     width: 100%;
     height: 400px;
-    top: 100%;
+    top: 10%;
     position: absolute;
 }
 #whitehat {
@@ -217,6 +224,8 @@ section {
 }
 #titlewh {
     text-align: center;
+    font: 800 14pt Arial;
+    color: rgb(31, 31, 31);
 }
 #imgwh {
     width: 100px;
@@ -231,21 +240,74 @@ section {
     left: 50%;
     margin-left: -175px;
     position: absolute;
+
+    font: 500 12pt Arial;
 }
 
 #grayhat {
     width: 30%;
-    height: 400px;
+    height: 360px;
     top: 5%;
     left: 35%;
     position: absolute;
     display: inline-block;
 }
+#grayhatcontent {
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.80);
+    background-color: rgb(128, 128, 128);
+}
+#titlegh {
+    text-align: center;
+    font: 800 14pt Arial;
+    color: rgb(31, 31, 31);
+}
+#imggh {
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+}
+#pgh {
+    width: 350px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    position: absolute;
+
+    font: 500 12pt Arial;
+}
+
 #blackhat {
     width: 30%;
-    height: 400px;
+    height: 360px;
     top: 5%;
     left: 65%;
     position: absolute;
     display: inline-block;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    top: 180%;
+    position: absolute;
+    background-color: rgb(66, 66, 66);
+}
+#linkhub {
+    width: 200px;
+    height: 30px;
+    top: 100%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -100px;
+    position: absolute;
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
