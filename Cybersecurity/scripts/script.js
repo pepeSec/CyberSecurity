@@ -2,6 +2,7 @@ function modifica(n) {
     var nlink1 = document.querySelector('a#nlink1')
     var nlink2 = document.querySelector('a#nlink2')
     var nlink3 = document.querySelector('a#nlink3')
+    var nlink4 = document.querySelector('a#nlink4')
     var flink = document.querySelector('a#linkhub')
 
     if (n == 1) {
@@ -17,6 +18,10 @@ function modifica(n) {
         nlink3.style.backgroundColor = 'gray'
         nlink3.style.color = 'white'
     } else if (n == 4) {
+        nlink4.style.transition = '400ms'
+        nlink4.style.backgroundColor = 'gray'
+        nlink4.style.color = 'white'
+    } else if (n == 5) {
         flink.style.transition = '400ms'
         flink.style.backgroundColor = 'gray'
         flink.style.color = 'white'
@@ -38,6 +43,10 @@ function atualiza(n) {
         nlink3.style.backgroundColor = 'transparent'
         nlink3.style.color = 'black'
     } else if (n == 4) {
+        nlink4.style.transition = '400ms'
+        nlink4.style.backgroundColor = 'transparent'
+        nlink4.style.color = 'black'
+    } else if (n == 5) {
         flink.style.transition = '400ms'
         flink.style.backgroundColor = 'transparent'
         flink.style.color = 'black'
