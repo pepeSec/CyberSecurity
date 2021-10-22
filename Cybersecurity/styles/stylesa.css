@@ -44,7 +44,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 #nlink1 {
-    left: 25%;
+    left: 20%;
     top: 12px;
     position: absolute;
     padding: 3px;
@@ -55,7 +55,7 @@ header {
     border-radius: 5px;
 }
 #nlink2 {
-    left: 50%;
+    left: 40%;
     top: 12px;
     position: absolute;
     padding: 3px;
@@ -66,7 +66,7 @@ header {
     border-radius: 5px;
 }
 #nlink3 {
-    left: 75%;
+    left: 60%;
     top: 12px;
     position: absolute;
     padding: 3px;
@@ -76,7 +76,17 @@ header {
     font-family: inherit;
     border-radius: 5px;
 }
-
+#nlink4 {
+    left: 80%;
+    top: 12px;
+    position: absolute;
+    padding: 3px;
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    font-family: inherit;
+    border-radius: 5px;
+}
 
 section {
     width: 100%;
