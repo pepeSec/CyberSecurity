@@ -24,7 +24,7 @@ header {
 #imglogo {
     width: 125px;
     height: 37.5px;
-    margin-top: 5px;
+    margin-top: 7px;
     margin-left: -60%;
     position: absolute;
     text-align: center;
@@ -352,4 +352,17 @@ footer {
     font: 500 12pt Arial;
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+#linkhub:hover {
+    transition: 0.5s;
+    width: 200px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -100px;
+    background-color: white;
+
+    font: 700 12pt Arial;
+    text-align: center;
 }
