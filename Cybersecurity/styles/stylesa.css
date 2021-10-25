@@ -92,10 +92,23 @@ section {
     width: 100%;
     height: 1000px;
     top: 50px;
-    position: fixed;
+    position: absolute;
 }
 #content_area1 {
     width: 100%;
     height: 500px;
-    
+    position: absolute;
+}
+#content1 {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -200px;
+}
+#h1name {
+    margin: 0px;
+    font: 800 30pt Montserrat;
 }
